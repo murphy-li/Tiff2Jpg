@@ -79,4 +79,5 @@ def transfer_tiff_jpg(input_path, save_path):
 
 
 if __name__ == "__main__":
+    # conda install libtiff=4.0.10
     print(transfer_tiff_jpg("C:/Users/xxx/Desktop/44.tiff", "1.jpg"))
